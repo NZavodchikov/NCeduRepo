@@ -54,7 +54,7 @@ public class Book {
                 "]";
     }
     public String getAuthorNames(){
-        StringBuilder builder = new StringBuilder("");
+        StringBuilder builder = new StringBuilder();
         for(int i = 0; i < authors.length; i ++){
             if(i != authors.length -1) {
                 builder.append(authors[i].getName() + ", ");
